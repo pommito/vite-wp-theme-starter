@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   server: {
@@ -23,10 +24,9 @@ export default defineConfig({
   build: {
     outDir: "dist",
     rollupOptions: {
-      input: {
-        main: "assets/js/main.js",
-      },
+      input: ["assets/js/main.js", "assets/css/main.css"],
     },
     manifest: true,
   },
+  plugins: [tailwindcss()],
 });

@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <h1>Hello, World !</h1>
+    <h1 class="text-9xl mx-auto">Hello, World !</h1>
     <?php wp_footer(); ?>
 </body>
 </html>
