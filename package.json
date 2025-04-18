@@ -1,0 +1,16 @@
+{
+  "name": "theme-starter-wp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite build --watch",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite": "^6.3.2"
+  }
+}
