@@ -1,0 +1,25 @@
+# Ignorer les dossiers node_modules
+node_modules/
+
+# Ignorer les fichiers de cache
+.cache/
+
+# Ignorer les fichiers de build
+dist/
+
+# Ignorer les fichiers de configuration de l'éditeur
+.vscode/
+.idea/
+
+# Ignorer les fichiers de configuration de l'environnement
+.env
+.env.local
+.env.*.local
+
+# Ignorer les fichiers de configuration de l'OS
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de configuration de l'IDE
+*.sublime-project
+*.sublime-workspace
