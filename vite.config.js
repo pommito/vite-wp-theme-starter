@@ -1,10 +1,10 @@
-import { defineConfig } from "vite";
-import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from 'vite';
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   build: {
-    outDir: "dist",
-    assetsDir: "",
+    outDir: 'dist',
+    assetsDir: '',
     emptyOutDir: true,
     manifest: true,
   },
